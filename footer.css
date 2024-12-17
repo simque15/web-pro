@@ -1,0 +1,40 @@
+.footer{
+    width: auto;
+    height: 310px;
+    display:flex;
+    align-items : center;
+    border-top: 1px solid #000000;
+    justify-content: space-between ; 
+    
+}
+
+.footer1{
+    width: auto;
+    height: 100px;
+    display:flex;
+    align-items : center;
+    margin-left: 100px;
+    justify-content: space-between ; 
+}
+
+.mpaicon{
+    width: auto;
+    height: 300px;
+    filter: grayscale(50%); /* 흑백처리 */
+}
+
+.inames{
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+}
+
+.inamesbox{
+    font-size: 20px;
+    color: #6e6a6a;
+}
+.iadress{
+    font-size: 20px;
+    margin-left: 70px;
+    color: #6e6a6a;
+}
