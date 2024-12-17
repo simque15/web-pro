@@ -1,6 +1,6 @@
 .footer{
     width: auto;
-    height: 310px;
+    height: 210px;
     display:flex;
     align-items : center;
     border-top: 1px solid #000000;
@@ -19,8 +19,9 @@
 
 .mpaicon{
     width: auto;
-    height: 300px;
+    height: 200px;
     filter: grayscale(50%); /* 흑백처리 */
+    margin-right: 50px;
 }
 
 .inames{
@@ -30,11 +31,11 @@
 }
 
 .inamesbox{
-    font-size: 20px;
+    font-size:15px;
     color: #6e6a6a;
 }
 .iadress{
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 70px;
     color: #6e6a6a;
 }
