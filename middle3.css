@@ -1,0 +1,7 @@
+.middle3{
+    display: flex;
+    flex-wrap: wrap;    
+    gap: 0px; 
+    margin-top: 10px;
+    justify-content: space-between;
+}

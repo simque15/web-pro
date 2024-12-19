@@ -19,7 +19,9 @@ button3.addEventListener("click", () => {
   window.location.href = "index4.html"; 
 });
 
-// 공통 함수: 각 카루셀에 대해 슬라이드 이동
+
+
+// 슬라이드 이동
 function moveCarousel(carouselIndex, direction) {
   const track = document.getElementById(`imageTrack${carouselIndex + 1}`);
   const leftButton = document.getElementById(`leftButton${carouselIndex + 1}`);
