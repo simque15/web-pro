@@ -16,6 +16,9 @@
 
   </head>
   
+<!-- 주의사항 
+ 동일한 id를 사용하고 있어, JavaScript 코드가 첫 번째로 만나는 요소만 인식합니다.
+  -->
   <body>
     <div class="head">
       
@@ -33,11 +36,162 @@
           <button class="pp">로그인</button>
         </div>
       
+
+
     </div>
 
     <div class="middle">
-      ㅁㄴㅇㄻㄴㅇㄻ
+
+      
+        <p class="bigname">신상품</p>
+        <div class="mbox" id="carousel1">
+          <button class="button left" id="leftButton1" onclick="moveCarousel(0, -1)" disabled>&#9664;</button>
+          <div class="image-track" id="imageTrack1">
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/사진1.jpg" alt="썸넬1">
+            <p>이름 : 옷1 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/사진2.jpg" alt="썸넬2">
+            <p>이름 : 옷2 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/사진3.jpg" alt="썸넬3">
+            <p>이름 : 옷3 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/사진4.jpg" alt="썸넬4">
+            <p>이름 : 옷4 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/사진5.jpg" alt="썸넬5">
+            <p>이름 : 옷5 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/사진6.jpg" alt="썸넬6">
+            <p>이름 : 옷6 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/사진7.jpg" alt="썸넬7">
+            <p>이름 : 옷7 <br>가격 : ???원</p>
+          </div>
+        </div>
+        <button class="button right" id="rightButton1" onclick="moveCarousel(0, 1)">&#9654;</button>
+      </div>
+
+
+      <p class="bigname">상의</p>
+      <div class="mbox" id="carousel2">
+        <button class="button left" id="leftButton2" onclick="moveCarousel(1, -1)" disabled>&#9664;</button>
+        <div class="image-track" id="imageTrack2">
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/사진8.jpg" alt="썸넬1">
+            <p>이름 : 옷1 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/사진9.jpg" alt="썸넬2">
+            <p>이름 : 옷2 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/tkwls10.jpg" alt="썸넬3">
+            <p>이름 : 옷3 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/tkwls12.jpg" alt="썸넬4">
+            <p>이름 : 옷4 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/tkwls13.jpg" alt="썸넬5">
+            <p>이름 : 옷5 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/tkwls14.jpg" alt="썸넬6">
+            <p>이름 : 옷6 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/tkwls15.jpg" alt="썸넬7">
+            <p>이름 : 옷7 <br>가격 : ???원</p>
+          </div>
+        </div>
+        <button class="button right" id="rightButton2" onclick="moveCarousel(1, 1)">&#9654;</button>
+      </div>
+
+      <p class="bigname">하의</p>
+      <div class="mbox" id="carousel3">
+        <button class="button left" id="leftButton3" onclick="moveCarousel(2, -1)" disabled>&#9664;</button>
+        <div class="image-track" id="imageTrack3">
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/tkwls16.jpg" alt="썸넬1">
+            <p>이름 : 옷1 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/tkwls17.jpg" alt="썸넬2">
+            <p>이름 : 옷2 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/tkwls18.jpg" alt="썸넬3">
+            <p>이름 : 옷3 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/tkwls19.jpg" alt="썸넬4">
+            <p>이름 : 옷4 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/tkwls20.jpg" alt="썸넬5">
+            <p>이름 : 옷5 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/tkwls21.jpg" alt="썸넬6">
+            <p>이름 : 옷6 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/tkwls22.jpg" alt="썸넬7">
+            <p>이름 : 옷7 <br>가격 : ???원</p>
+          </div>
+        </div>
+        <button class="button right" id="rightButton3" onclick="moveCarousel(2, 1)">&#9654;</button>
+      </div>
+
+
+      <p class="bigname">악세사리</p>
+      <div class="mbox" id="carousel4">
+        <button class="button left" id="leftButton4" onclick="moveCarousel(3, -1)" disabled>&#9664;</button>
+        <div class="image-track" id="imageTrack4">
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/dkrtptkfl1.jpg" alt="썸넬1">
+            <p>이름 : 옷1 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/dkrtptkfl2.jpg" alt="썸넬2">
+            <p>이름 : 옷2 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/dkrtptkfl3.jpg" alt="썸넬3">
+            <p>이름 : 옷3 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/dkrtptkfl4.jpg" alt="썸넬4">
+            <p>이름 : 옷4 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/dkrtptkfl5.jpg" alt="썸넬5">
+            <p>이름 : 옷5 <br>가격 : ???원</p>
+          </div>4
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/dkrtptkfl6.jpg" alt="썸넬6">
+            <p>이름 : 옷6 <br>가격 : ???원</p>
+          </div>
+          <div class="mbox1">
+            <img class="sellbox" src="./사진들/dkrtptkfl7.jpg" alt="썸넬7">
+            <p>이름 : 옷7 <br>가격 : ???원</p>
+          </div>
+        </div>
+        <button class="button right" id="rightButton4" onclick="moveCarousel(3, 1)">&#9654;</button>
+      </div>
+
     </div>
+
+
 
     <div class="footer">
       <div class="footer1">
@@ -60,4 +214,6 @@
     <script src="index.js"></script>
 
   </body>
+
+  
 </html>

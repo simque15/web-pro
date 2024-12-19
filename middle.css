@@ -1,0 +1,70 @@
+.middle {
+    width: 80%;
+    max-width: 800px;
+  }
+
+  .mbox {
+    position: relative;
+    width: 2115PX; 
+    max-width: 2500px; 
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background: #fff;
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .image-track {
+    display: flex;
+    transition: transform 0.3s ease-in-out; 
+    /* translateX()를 사용하여 슬라이드를 수평으로 이동합니다.
+    여기서는 0.3초 동안 transform의 변화가 부드럽게 이루어집니다.
+    ease-in-out은 애니메이션이 시작과 끝 부분에서는 천천히 진행되고, 중간에는 빠르게 진행되는 가속-감속 효과를 제공합니다.*/
+    width: max-content;
+
+  }
+
+  .mbox1 {
+    width: 500PX; 
+    flex-shrink: 0;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .mbox1 img {
+    width: 300PX;
+    height: auto;
+    border: 1px solid #ddd;
+  }
+
+  .button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .button.left {
+    left: 10px;
+  }
+
+  .button.right {
+    right: 10px;
+  }
+
+  .button:disabled {
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: not-allowed;
+  }
+
+  .bigname{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+  }
